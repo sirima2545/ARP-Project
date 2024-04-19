@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+.navbar {
+    background: #1E1142;
+    width: 100vw;
+    height: 15vh; /*ตอนแรก17*/
+    display: flex;
+    justify-content: right;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    
+}
+
+body{
+    background-color: #E6E7FC;
+}
+
+.rule,.fact,.chat {
+    background: #1E1142;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;  /*ตอนแรก250*/
+    color: #D99BFF;
+    text-decoration: none;
+    margin-right: 7%;  /*ตอนแรก7*/
+    margin-top: 4.5%;
+}
+.image-logo {
+    margin-right: 60%;  /*ตอนแรก60*/
+    background-attachment: fixed; 
+}
+.menu-img {
+    display: flex;
+    position: fixed;
+    top: 3%;
+    right: 3.5%;
+}
+
+.img-chat{
+    width: 2.5vw;
+    height: auto;
+    margin-right: 42px;
+}
+
+.img-fact{
+    width: 2.5vw;
+    height: auto;
+    margin-right: 53px;
+    margin-left: 68px;
+}
+
+.img-rule{
+    width: 2.5vw;  /*ตอนแรก2.2*/
+    height: auto;
+    margin: 0 62px;  /*ตอนกแรก0 95*/
+} 
+.card1 {
+    width: 32vw;
+    height: 15vh;
+    color: #D99BFF;
+    background: #331c73;
+    border-radius: 30px;
+    border: 1px;
+    padding: 0vh;
+    margin: 10%;
+    margin-top: -18%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130%;
+    white-space: pre-wrap; 
+    line-height: 140%;
+}
+.card2 {
+    width: 15vw;
+    height: 7vh;
+    color: #331c73;
+    background: #D99BFF;
+    border-radius: 30px;
+    border: 1px solid #331c73;
+    padding: 0vh;
+    margin: 70%;
+    margin-top: -10%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130%;
+    white-space: pre-wrap; 
+    line-height: 90%;
+}
+.card3 {
+    width: 28vw;
+    height: 7vh;
+    color: #D99BFF;
+    background: #331c73;
+    border-radius: 30px;
+    border: 1px;
+    padding: 0vh;
+    margin: 10%;
+    margin-top: -70%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 130%;
+    white-space: pre-wrap; 
+    line-height: 90%;
+}
+.img-smile1 {
+    margin: 12%;
+    margin-left: 3%;
+    background-color: black;
+    border-radius: 55%;
+    height: auto;
+    width: 5%;
+}
+.img-smile2 {
+    margin-top: 0%;
+    margin-left: -17.3%;
+    background-color: black;
+    border-radius: 55%;
+    height: auto;
+    width: 5%;
+}
+.card4 {
+    width: 24vw;
+    height: 18vh;
+    color: #331c73;
+    background-color: #E6E7FC;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 0vh;
+    margin: 10%;
+    margin-top: -9%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 130%;
+    white-space: pre-wrap; 
+    line-height: 150%;
+    justify-content: center;
+}
+.answer {
+    margin-left: 29%;
+}
+input[type="text"] {
+    margin-top: -6.5%;
+    vertical-align: top;
+    margin-left: 11.8%;
+    width: 75%;
+    height: 250%;
+    padding: 10.95px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;  
+    line-height: 150%;
+    border: transparent;
+    color: #331c73;
+    outline: none;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url('image/Chat box normal.png');
+    top: -10%;
+}
+input[type="text"]::placeholder {
+    text-align: auto; 
+    font-size: 70%;
+    justify-content: center;
+}
+
+.send-button {
+    position: absolute;
+    text-align: center;
+    color: transparent;
+    font-size: 500%;
+    line-height: 100%;
+    width: 3vw;
+    height: 7vh;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    margin-left: -4%;
+    margin-top: -4.6%;
+}
+.no-button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 150%;
+    white-space: pre-wrap; 
+    line-height: 150%;
+    margin-left: -4%;
+    margin-top: 4%;
+    width: 40%;
+    color: #D99BFF;
+    background: #331c73;
+    border-radius: 15px;
+}
+.yes-button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 150%;
+    white-space: pre-wrap; 
+    line-height: 150%;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -2.95%;
+    width: 10%;
+    color: #331c73;
+    background: #D99BFF;
+    border-radius: 15px;
+}

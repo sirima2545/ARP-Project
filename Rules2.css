@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+.navbar {
+    background: #1E1142;
+    width: 100vw;
+    height: 15vh; /*ตอนแรก17*/
+    display: flex;
+    justify-content: right;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    
+}
+
+body{
+    background-color: #E6E7FC;
+}
+
+.rule,.fact,.chat {
+    background: #1E1142;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;  /*ตอนแรก250*/
+    color: #D99BFF;
+    text-decoration: none;
+    margin-right: 7%;  /*ตอนแรก7*/
+    margin-top: 4.5%;
+}
+.image-logo {
+    margin-right: 60%;  /*ตอนแรก60*/
+    background-attachment: fixed; 
+}
+.menu-img {
+    display: flex;
+    position: fixed;
+    top: 3%;
+    right: 3.5%;
+}
+
+.img-chat{
+    width: 2.5vw;
+    height: auto;
+    margin-right: 42px;
+}
+
+.img-fact{
+    width: 2.5vw;
+    height: auto;
+    margin-right: 53px;
+    margin-left: 68px;
+}
+
+.img-rule{
+    width: 2.5vw;  /*ตอนแรก2.2*/
+    height: auto;
+    margin: 0 62px;  /*ตอนกแรก0 95*/
+} 
+/*-------------------------*/
+
+.body {
+    display: flex;
+    justify-content: right;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+}
+.radius_1 {
+    width: 650px;
+    height: 100px;
+    text-align: center;
+    border: solid 3px #331C72;
+    padding: 5px;
+    padding-top: 25px;
+    background: #6C56AA;
+    border-radius: 20px 0px 0px 0px;
+    display: inline-block; 
+    margin-top: 8.5%;  
+    margin-right: -0.3%;    
+
+}
+
+.radius_2 {
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    border: solid 3px #331C72;
+    padding: 5px;
+    padding-top: 25px;
+    background: #331C72;
+    border-radius: 0px 20px 0px 0px;
+    margin-top: 8.5%;  
+    display: inline-block;    
+}
+
+.rule1con,.rule2con {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    text-align: center;
+    color: #D99BFF;
+    text-decoration: none;
+}
+
+.radius_main {
+    width: 1348px;
+    height: 560px;
+    text-align: center;
+    border: solid 3px #331C72;
+    padding: 5px;
+    background: #EAC9FF;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: -6%; 
+    font-size: 30px;  
+}
+
+.text2{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+    text-align: left;
+    font-style: normal;
+    color: #331C72;
+    margin-left: 2%;
+    display: inline-block;  
+  
+}
+
+.input-group input
+{
+    background-color: white;
+    display: inline-block;    
+    border: 0;
+    outline: 0;
+    width: 300px;
+    height: 55px;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 80px;
+    border: 2px solid #331C72;
+    border-radius: 20px;
+    font-size: 90%;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: #331C73;
+}
+
+.RuletextHead{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    text-align: left;
+    font-style: normal;
+    color: #331C72;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.Ruletext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 95%;
+    text-align: left;
+    font-style: normal;
+    color: #331C72;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.Cancel {
+    width: 200px;
+    height: 60px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    border: solid 3px #331C72;
+    padding: 3px;
+    background: #DC52FF;
+    border-radius: 40px;
+    margin-top: 1%;  
+    margin-right: 6%;  
+    display: inline-block;    
+}
+.Submit {
+    width: 200px;
+    height: 60px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border: solid 3px #331C72;
+    padding: 3px;
+    background: #331C73;
+    border-radius: 40px;
+    margin-top: 1%;  
+    display: inline-block;    
+}
+
+select{
+    border:none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: solid 2px #331C72;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
+    text-align: center;
+    margin-left: 3%;  
+    margin-right: 3%; 
+    color: #000000;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+
+
+  .output{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 95%;
+    font-style: normal;
+    color: #331C72;
+    justify-content: left;
+    margin-left: 7.2%;
+    top: 54.5%;
+    position: fixed;
+
+}

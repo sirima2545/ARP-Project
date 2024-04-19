@@ -1,0 +1,70 @@
+<html>
+    <link rel="stylesheet" href="Rules.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<nav>
+    <div class="navbar">
+        <img src="image\logo.jpg"  class="image-logo">
+        <a href="Chat.html" class="chat" >Chat</a>
+        <a href="Facts.html" class="fact">Facts</a>
+        <a href="Rules.html" class="rule">Rules</a>
+            <div class="menu-img">
+                 <img src="image\chat.png" class="img-chat">
+                 <img src="image\fact.png" class="img-fact">
+                 <img src="image\rule.png" class="img-rule">
+            </div>
+    </div>
+</nav>
+<body>
+    
+<center> 
+    <div class="radius_1">
+        <a href="Rules.html" class="rule1con">Condition Rule (If-Then)</a>
+    </div>
+    <div class="radius_2">  
+        <a href="Rules2.html" class="rule2con">> 1 Condition Rule (If-and/or-Then)</a>
+    </div>
+
+    <div class="radius_main">  
+        <div class="RuletextHead">
+            <p>Rules</p>
+        </div>
+    
+        <div class="Ruletext">
+            <p><id="x">IF : A Then B</p>
+            <p><id="y">IF : B Then C</p>
+        </div>
+    
+        <div class="input-group">
+            <div class="text2"><p>If : </p></div>
+            <input type="text" id="addrule">
+
+            <div class="text2"><p>Then : </p></div>
+            <input type="text" id="addrule2">
+            <p class="output" id="output1"></p>
+        </div>
+    <div class="Cancel">Cancel</div>
+    <div class="Submit" id="Submit">Submit</div>
+    
+    </div>
+</center>
+
+<script>
+        
+    const addrules = document.getElementById('addrule');
+    const addrules2 = document.getElementById('addrule2');
+    const Submit = document.getElementById('Submit');
+    const out1 = document.getElementById('output1');
+
+    function show1() {
+    const newParagraph = document.createElement('p');
+    newParagraph.textContent = "IF : " + addrules.value + " Then " + addrules2.value;
+    out1.appendChild(newParagraph);
+    addrules.value = '';
+    addrules2.value = '';
+    }
+    Submit.addEventListener('click',show1);
+</script>
+
+</body>
+</html>

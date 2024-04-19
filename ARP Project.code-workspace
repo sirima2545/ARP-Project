@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/ACID/ACID"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ARP Project"
+	}
+}

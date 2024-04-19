@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="Facts.css">   <!--นำไฟล์ชนิดcss ที่ชื่อFacts.css มาใช้กับหน้าเว็บhtmlนี้-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    <!--ช่วยให้รันในอุปกรณ์อื่นได้ภาพปกติ-->
+
+<nav>    
+        <div class="navbar">
+            <img src="image/logo.jpg"  class="image-logo">
+            <a href="Chat.html" class="chat" >Chat</a>
+            <a href="Facts.html" class="fact">Facts</a>
+            <a href="Rules.html" class="rule">Rules</a>
+                <div class="menu-img">
+                     <img src="image/chat.png" class="img-chat">
+                     <img src="image/fact.png" class="img-fact">
+                     <img src="image/rule.png" class="img-rule">
+                </div>
+        </div>
+</nav>
+
+
+<body>
+    <script src="Facts.js"></script>
+    <center>
+    <div class="fact_details">  
+    <h>Facts</h>
+    <section class="facts_a-j">
+        <div class="a-j">
+        <p><id="a">A : แสบร้อนบริเวณลิ้นปี่</p>
+        <p><id="b">B : แสบร้อนกลางหน้าอก</p>
+        <p><id="c">C : รู้สึกเปรี้ยวในปาก</p>
+        <p><id="d">D : รู้สึกขมในปาก</p>
+        <p><id="e">E : มีอาหารย้อนขึ้นมาในปากและลำคอ</p>
+        <p><id="f">F : จุกเสียด แน่นท้องบริเวณลิ้นปี่</p>
+        <p><id="g">G : เจ็บหน้าอก</p>
+        <p><id="h">H : เสียงแหบเรื้อรัง เสียงเปลี่ยน</p>
+        <p><id="i">I : ไอเรื้อรัง</p>
+        <p><id="j">J : กลืนติดขัด</p>
+        </div>
+    </section>
+    <section class="facts_k-s">
+        <div class="a-j">
+        <p><id="k">K : มีกลิ่นปาก</p>
+        <p><id="l">L : มีอาการเรอบ่อย</p>
+        <p><id="m">M : โรคหอบหืดที่เคยเป็นอยู่มีอาการแย่ลง (ถ้ามี)</p>
+        <p><id="n">N : หายใจไม่ออกจนทําให้ต้องตื่นตอนกลางดึก</p>
+        <p><id="o">O : อาเจียน</p>
+        <p><id="p">P : รู้สึกไม่สบายเมื่อนั่งหรือนอนลงหลังจากทานอาหาร</p>
+  <!--  <p><id="q">Q : </p>
+        <p><id="r">R : </p>
+        <p><id="s">S : </p>  --> 
+        </div>
+    </section>
+    
+    
+    
+        <input type="text" placeholder="Add Some Fact" id="addfact" class="addfact">
+        <input type="image" class="sent-button" id="sent-button" src="image/send butt.jpg">
+        <p class="output" id="output1"></p>
+
+    
+
+    <script>
+        
+        const addfact1 = document.getElementById('addfact');
+        const sentbutton = document.getElementById('sent-button');
+        const out1 = document.getElementById('output1');
+
+        function show1() {
+        // สร้าง element p ใหม่
+        const newParagraph = document.createElement('p');
+        // กำหนดค่าของ element p ใหม่
+        newParagraph.textContent = addfact1.value;
+        // แทรกค่าที่ป้อนครั้งแรกที่ด้านบนสุดและค่าที่ป้อนครั้งถัดไปที่ด้านล่างของค่าที่แสดงอยู่แล้ว
+        // แทรก element p ใหม่ที่สร้างลงใน out1
+        out1.appendChild(newParagraph);
+        // ล้างค่าใน input
+        addfact1.value = '';
+        }
+
+        sentbutton.addEventListener('click',show1);
+
+    </script>
+
+</div>
+</center>
+</body>
